@@ -67,7 +67,8 @@ func (t *Tracer) Init(entity *reporter.Entity, rep reporter.Reporter, samp Sampl
 	}
 	t.Reporter.Boot(entity, t.cdsWatchers)
 	t.initFlag = 1
-	t.initMetricsCollect(meterCollectSecond)
+	//hegeng 服务端版本低，不支持MetricsCollect上报
+	//t.initMetricsCollect(meterCollectSecond)
 	t.correlation = correlation
 	t.ignoreSuffix = strings.Split(ignoreSuffixStr, ",")
 	t.traceIgnorePath = strings.Split(ignorePath, ",")
