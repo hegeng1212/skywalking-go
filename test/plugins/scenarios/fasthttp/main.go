@@ -24,7 +24,7 @@ import (
 	"github.com/fasthttp/router"
 	"github.com/valyala/fasthttp"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 func providerHandler(ctx *fasthttp.RequestCtx) {

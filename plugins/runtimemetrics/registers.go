@@ -21,10 +21,10 @@ import (
 	"math"
 	original_metrics "runtime/metrics"
 
-	"github.com/apache/skywalking-go/plugins/core/metrics"
+	"github.com/hegeng1212/skywalking-go/plugins/core/metrics"
 )
 
-//nolint
+// nolint
 var nameReplacing = map[string]*meterInfo{
 	// GC counts
 	"/gc/cycles/automatic:gc-cycles": newMetricsGaugeReplaceInfo("instance_golang_gc_count_labeled", "type", "automatic"),
@@ -78,7 +78,7 @@ var nameReplacing = map[string]*meterInfo{
 	"/sched/latencies:seconds":      newMetricsHistogramReplaceInfo("instance_golang_sched_latencies", 1000_000_000),
 }
 
-//nolint
+// nolint
 var combinedMetrics = []*meterInfo{
 	newCombinedGaugeInfo("instance_golang_memory_heap_labeled", []string{
 		"/memory/classes/heap/free:bytes", "/memory/classes/heap/objects:bytes", "/memory/classes/heap/released:bytes",
@@ -86,7 +86,8 @@ var combinedMetrics = []*meterInfo{
 	}, "type", "total"),
 }
 
-//nolint
+// nolint
+//
 //skywalking:init
 func registerMetrics() {
 	allMetrics := original_metrics.All()

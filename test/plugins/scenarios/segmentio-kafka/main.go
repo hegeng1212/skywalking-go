@@ -28,7 +28,7 @@ import (
 
 	"github.com/segmentio/kafka-go"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 type testFunc func() error

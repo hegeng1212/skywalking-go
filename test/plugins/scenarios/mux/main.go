@@ -25,7 +25,7 @@ import (
 	"net/url"
 	"time"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 
 	"github.com/gorilla/mux"
 )
@@ -61,7 +61,7 @@ func health(w http.ResponseWriter, r *http.Request) {
 var upgrader = websocket.Upgrader{}
 
 // ws
-// ISSUE: https://github.com/apache/skywalking-go/pull/188
+// ISSUE: https://github.com/hegeng1212/skywalking-go/pull/188
 // Test http.ResponseWriter cast to http.Hijacker
 func ws(w http.ResponseWriter, r *http.Request) {
 	c, err := upgrader.Upgrade(w, r, nil)

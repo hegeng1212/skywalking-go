@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/http
+module github.com/hegeng1212/skywalking-go/plugins/http
 
 go 1.19
 

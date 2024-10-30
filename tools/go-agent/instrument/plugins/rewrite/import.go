@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/agentcore"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/agentcore"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"

@@ -21,7 +21,7 @@ import (
 	"math"
 	"os"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 
 	"github.com/gin-gonic/gin"
 )

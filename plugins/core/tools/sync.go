@@ -17,7 +17,7 @@
 
 package tools
 
-import "github.com/apache/skywalking-go/plugins/core/operator"
+import "github.com/hegeng1212/skywalking-go/plugins/core/operator"
 
 type SyncMap interface {
 	Put(key string, value interface{})

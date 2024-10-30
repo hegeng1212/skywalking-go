@@ -24,8 +24,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/apache/skywalking-go/plugins/core/reporter"
-	"github.com/apache/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/core/reporter"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 )
 
 var snapshotType = reflect.TypeOf(&SnapshotSpan{})

@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/apache/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
 
 	commonv3 "skywalking.apache.org/repo/goapi/collect/common/v3"
 	logv3 "skywalking.apache.org/repo/goapi/collect/logging/v3"

@@ -40,7 +40,7 @@ linters-settings:
   lll:
     line-length: 150
   goimports:
-    local-prefixes: github.com/apache/skywalking-go
+    local-prefixes: github.com/hegeng1212/skywalking-go
   gocritic:
     enabled-tags:
       - diagnostic

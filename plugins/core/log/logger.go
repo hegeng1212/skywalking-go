@@ -17,7 +17,7 @@
 
 package log
 
-import "github.com/apache/skywalking-go/plugins/core/operator"
+import "github.com/hegeng1212/skywalking-go/plugins/core/operator"
 
 func Infof(format string, args ...interface{}) {
 	op := operator.GetOperator()

@@ -26,18 +26,18 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/apache/skywalking-go/plugins/core"
-	"github.com/apache/skywalking-go/tools/go-agent/config"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/api"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/plugins/core"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/config"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/api"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"
 )
 
 var (
-	ProjectBasePackage      = "github.com/apache/skywalking-go/"
+	ProjectBasePackage      = "github.com/hegeng1212/skywalking-go/"
 	EnhanceBasePackage      = ProjectBasePackage + "agent/core"
 	EnhanceFromBasePackage  = ProjectBasePackage + "plugins/core"
 	ReporterFromBasePackage = "reporter"
@@ -156,8 +156,8 @@ func (i *Instrument) writeTracerInitLink(dir string) (string, error) {
 	return tools.WriteFile(dir, "tracer_init.go", html.UnescapeString(tools.ExecuteTemplate(`package core
 
 import (
-	"github.com/apache/skywalking-go/agent/reporter"
-	"github.com/apache/skywalking-go/agent/core/operator"
+	"github.com/hegeng1212/skywalking-go/agent/reporter"
+	"github.com/hegeng1212/skywalking-go/agent/core/operator"
 	"fmt"
 	"os"
 	"strconv"

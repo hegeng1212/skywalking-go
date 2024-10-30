@@ -3,7 +3,7 @@ module test/plugins/scenarios/go-redisv9
 go 1.19
 
 require (
-	github.com/apache/skywalking-go v0.1.0
+	github.com/hegeng1212/skywalking-go v0.1.0
 	github.com/redis/go-redis/v9 v9.0.5
 )
 

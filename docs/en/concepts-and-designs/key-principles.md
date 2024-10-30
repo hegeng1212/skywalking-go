@@ -130,7 +130,7 @@ Since SkyWalking Go Agent is based on compile-time enhancement, it cannot introd
 For example, when SkyWalking Agent communicates with OAP, it needs to exchange data through the `gRPC` protocol. 
 If the user does not introduce the gRPC module, it cannot be completed.
 
-Due to resolve this problem, users need to introduce relevant modules to complete the basic dependency functions. This is why `import _ "github.com/apache/skywalking-go"` is required.
+Due to resolve this problem, users need to introduce relevant modules to complete the basic dependency functions. This is why `import _ "github.com/hegeng1212/skywalking-go"` is required.
 The main key modules that users currently need to introduce include:
 
 1. **uuid**: Used to generate UUIDs, mainly for `TraceID` generation.

@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/skywalking-go/plugins/core"
-	"github.com/apache/skywalking-go/plugins/core/tracing"
-	"github.com/apache/skywalking-go/plugins/gorm/mysql"
+	"github.com/hegeng1212/skywalking-go/plugins/core"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/gorm/mysql"
 
 	"github.com/stretchr/testify/assert"
 

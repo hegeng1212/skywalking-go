@@ -23,10 +23,10 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/apache/skywalking-go/tools/go-agent/config"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/api"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/config"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/api"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 )
 
 var toolFlags = &EnhancementToolFlags{}

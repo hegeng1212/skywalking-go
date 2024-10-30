@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/apache/skywalking-go/plugins/core/reporter"
+	"github.com/hegeng1212/skywalking-go/plugins/core/reporter"
 
 	"github.com/stretchr/testify/assert"
 )

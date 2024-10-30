@@ -6,7 +6,7 @@ toolkit/metic provides APIs to support manual reporting of metric data. Currentl
 Add the toolkit/metric dependency to your project.
 
 ```go
-import "github.com/apache/skywalking-go/toolkit/metric"
+import "github.com/hegeng1212/skywalking-go/toolkit/metric"
 ```
 
 ## Use Native Metric

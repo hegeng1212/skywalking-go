@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go
+module github.com/hegeng1212/skywalking-go
 
 go 1.19
 

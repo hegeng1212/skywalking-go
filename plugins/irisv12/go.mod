@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/irisv12
+module github.com/hegeng1212/skywalking-go/plugins/irisv12
 
 go 1.19
 

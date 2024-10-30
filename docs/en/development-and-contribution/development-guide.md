@@ -16,7 +16,7 @@ The plugin must create a new module, which is currently stored in the project's 
 Plugins can import the following two modules:
 
 1. **Agent core**: This module provides all the dependencies needed for the plugin, including the plugin API, enhancement declaration objects, etc.
-Agent core plugin should be `github.com/apache/skywalking-go/plugins/core` and replaced by the relative location.
+Agent core plugin should be `github.com/hegeng1212/skywalking-go/plugins/core` and replaced by the relative location.
 2. **Framework to be enhanced**: Import the framework you wish to enhance.
 
 Note: Plugins should **NOT** import and use any other modules, as this may cause compilation issues for users. If certain tools are needed, they should be provided by the agent core.

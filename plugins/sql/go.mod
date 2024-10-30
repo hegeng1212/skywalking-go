@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/sql
+module github.com/hegeng1212/skywalking-go/plugins/sql
 
 go 1.19
 

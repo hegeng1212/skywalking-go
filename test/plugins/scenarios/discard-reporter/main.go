@@ -22,7 +22,7 @@ import (
 	"log"
 	"net/http"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 func providerHandler(w http.ResponseWriter, r *http.Request) {

@@ -18,7 +18,7 @@
 package main
 
 import (
-	"github.com/apache/skywalking-go/toolkit/metric"
+	"github.com/hegeng1212/skywalking-go/toolkit/metric"
 )
 
 func testCounter() {

@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/mongo
+module github.com/hegeng1212/skywalking-go/plugins/mongo
 
 go 1.19
 

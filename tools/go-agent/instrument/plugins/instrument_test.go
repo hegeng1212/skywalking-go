@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/apache/skywalking-go/plugins/core/instrument"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/api"
+	"github.com/hegeng1212/skywalking-go/plugins/core/instrument"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/api"
 )
 
 func TestInstrument_tryToFindThePluginVersion(t *testing.T) {
@@ -71,7 +71,7 @@ func TestInstrument_tryToFindThePluginVersion(t *testing.T) {
 					"/home/user/skywalking-go/toolkit/trace/api.go",
 				},
 			},
-			NewTestInstrument("github.com/apache/skywalking-go/toolkit"),
+			NewTestInstrument("github.com/hegeng1212/skywalking-go/toolkit"),
 			"",
 		},
 	}

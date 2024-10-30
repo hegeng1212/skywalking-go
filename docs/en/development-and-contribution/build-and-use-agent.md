@@ -8,13 +8,13 @@ Use `go get` to import the `skywalking-go` program.
 
 ```shell
 // latest or any commit ID
-go get github.com/apache/skywalking-go@latest
+go get github.com/hegeng1212/skywalking-go@latest
 ```
 
 Also, import the module to your `main` package: 
 
 ```go
-import _ "github.com/apache/skywalking-go"
+import _ "github.com/hegeng1212/skywalking-go"
 ```
 
 ## Build the Agent
@@ -23,7 +23,7 @@ When building the project, you need to clone the project and build it.
 
 ```shell
 // git clone the same version(tag or commit ID) as your dependency version.
-git clone https://github.com/apache/skywalking-go.git
+git clone https://github.com/hegeng1212/skywalking-go.git
 cd skywalking-go && make build
 ```
 

@@ -18,8 +18,8 @@
 package entry
 
 import (
-	"github.com/apache/skywalking-go/plugins/core/operator"
-	"github.com/apache/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 )
 
 func createExitSpan(caller interface{}, method string, opts ...tracing.SpanOption) (tracing.Span, error) {

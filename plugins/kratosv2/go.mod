@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/kratosv2
+module github.com/hegeng1212/skywalking-go/plugins/kratosv2
 
 go 1.19
 

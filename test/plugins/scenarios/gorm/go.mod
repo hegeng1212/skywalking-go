@@ -3,7 +3,7 @@ module test/plugins/scenarios/gorm
 go 1.19
 
 require (
-	github.com/apache/skywalking-go v0.0.0-20230519025440-37fd080ca733
+	github.com/hegeng1212/skywalking-go v0.0.0-20230519025440-37fd080ca733
 	gorm.io/driver/mysql v1.5.1
 	gorm.io/gorm v1.25.1
 )

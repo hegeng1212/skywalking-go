@@ -6,7 +6,7 @@ toolkit/trace provides the APIs to enhance the trace context, such as createLoca
 Add the toolkit/trace dependency to your project.
 
 ```go
-import "github.com/apache/skywalking-go/toolkit/trace"
+import "github.com/hegeng1212/skywalking-go/toolkit/trace"
 ```
 
 ## Use Native Tracing

@@ -24,7 +24,7 @@ import (
 	"go-micro.dev/v4/client"
 	"go-micro.dev/v4/metadata"
 
-	"github.com/apache/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 )
 
 //skywalking:public

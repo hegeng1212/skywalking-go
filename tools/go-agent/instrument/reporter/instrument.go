@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/skywalking-go/plugins/core"
-	"github.com/apache/skywalking-go/tools/go-agent/config"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/agentcore"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/api"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/plugins/core"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/config"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/agentcore"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/api"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"
@@ -45,7 +45,7 @@ func NewGRPCInstrument() *GRPCInstrument {
 
 func (i *GRPCInstrument) CouldHandle(opts *api.CompileOptions) bool {
 	i.compileOpts = opts
-	return opts.Package == "github.com/apache/skywalking-go/agent/reporter"
+	return opts.Package == "github.com/hegeng1212/skywalking-go/agent/reporter"
 }
 
 func (i *GRPCInstrument) FilterAndEdit(path string, curFile *dst.File, cursor *dstutil.Cursor, allFiles []*dst.File) bool {
@@ -94,7 +94,7 @@ func (i *GRPCInstrument) WriteExtraFiles(dir string) ([]string, error) {
 			pkgUpdates[key] = val
 		}
 		tools.ChangePackageImportPath(file, pkgUpdates)
-		tools.DeletePackageImports(file, "github.com/apache/skywalking-go/plugins/core/reporter")
+		tools.DeletePackageImports(file, "github.com/hegeng1212/skywalking-go/plugins/core/reporter")
 	})
 	if err != nil {
 		return nil, err
@@ -115,7 +115,7 @@ func (i *GRPCInstrument) generateReporterInitFile(dir string) (string, error) {
 	return tools.WriteFile(dir, "grpc_init.go", html.UnescapeString(tools.ExecuteTemplate(`package reporter
 
 import (
-	"github.com/apache/skywalking-go/agent/core/operator"
+	"github.com/hegeng1212/skywalking-go/agent/core/operator"
 	"fmt"
 	"strconv"
 	"os"

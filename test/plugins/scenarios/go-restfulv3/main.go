@@ -23,7 +23,7 @@ import (
 
 	restful "github.com/emicklei/go-restful/v3"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 func main() {

@@ -18,11 +18,11 @@
 package grpc
 
 import (
-	"github.com/apache/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
 
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 
-	"github.com/apache/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 )
 
 var ignoreServerMiddlewareKey = "ignoreServerMiddleware"

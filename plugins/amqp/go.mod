@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/amqp
+module github.com/hegeng1212/skywalking-go/plugins/amqp
 
 go 1.19
 

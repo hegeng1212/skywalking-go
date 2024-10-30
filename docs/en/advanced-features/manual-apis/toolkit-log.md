@@ -6,7 +6,7 @@ toolkit/logging provides the APIs to attaching log information to the Span in th
 Add the toolkit/logging dependency to your project.
 
 ```go
-import "github.com/apache/skywalking-go/toolkit/logging"
+import "github.com/hegeng1212/skywalking-go/toolkit/logging"
 ```
 
 ## Use Native Logging

@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/segmentio-kafka
+module github.com/hegeng1212/skywalking-go/plugins/segmentio-kafka
 
 go 1.19
 

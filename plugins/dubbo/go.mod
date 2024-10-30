@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/dubbo
+module github.com/hegeng1212/skywalking-go/plugins/dubbo
 
 go 1.19
 

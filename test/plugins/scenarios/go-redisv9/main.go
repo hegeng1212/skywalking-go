@@ -26,7 +26,7 @@ import (
 
 	v9 "github.com/redis/go-redis/v9"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 var rdb *v9.Client

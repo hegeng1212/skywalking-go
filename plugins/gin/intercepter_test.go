@@ -25,9 +25,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/apache/skywalking-go/plugins/core"
-	"github.com/apache/skywalking-go/plugins/core/operator"
-	"github.com/apache/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/core"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

@@ -27,7 +27,7 @@ import (
 
 	"test/plugins/scenarios/dubbo/api"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 var grpcGreeterImpl = new(api.GreeterClientImpl)

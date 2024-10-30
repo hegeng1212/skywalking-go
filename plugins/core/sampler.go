@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apache/skywalking-go/plugins/core/reporter"
+	"github.com/hegeng1212/skywalking-go/plugins/core/reporter"
 )
 
 type Sampler interface {

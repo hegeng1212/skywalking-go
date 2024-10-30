@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/apache/skywalking-go/plugins/core/instrument"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/plugins/core/instrument"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 )

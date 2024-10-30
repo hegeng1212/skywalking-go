@@ -26,7 +26,7 @@ import (
 
 	amqp "github.com/rabbitmq/amqp091-go"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 type testFunc func(RabbitClient) error

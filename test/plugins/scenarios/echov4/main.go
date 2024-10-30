@@ -24,7 +24,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 func main() {

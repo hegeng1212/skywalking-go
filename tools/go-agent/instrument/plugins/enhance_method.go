@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/skywalking-go/plugins/core/instrument"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/agentcore"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/plugins/core/instrument"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/agentcore"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 

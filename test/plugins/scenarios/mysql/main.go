@@ -27,7 +27,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 type testFunc func(context.Context, *sql.DB) error

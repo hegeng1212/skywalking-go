@@ -25,7 +25,7 @@ import (
 
 	hello "github.com/go-micro/examples/greeter/srv/proto/hello"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 type Say struct{}

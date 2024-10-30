@@ -22,8 +22,8 @@ import (
 	"go/token"
 	"path/filepath"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"
@@ -101,7 +101,7 @@ func (z *Zap) GenerateExtraFiles(pkgPath, debugDir string) ([]*rewrite.FileInfo,
 	return result, nil
 }
 
-//nolint
+// nolint
 func (z *Zap) CustomizedEnhance(path string, curFile *dst.File, cursor *dstutil.Cursor, allFiles []*dst.File) (map[string]string, bool) {
 	switch n := cursor.Node().(type) {
 	case *dst.TypeSpec:

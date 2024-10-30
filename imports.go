@@ -23,8 +23,8 @@ import (
 	_ "github.com/pkg/errors"
 
 	// force compile for the agent core copied
-	_ "github.com/apache/skywalking-go/agent/core"
-	_ "github.com/apache/skywalking-go/agent/core/operator"
-	_ "github.com/apache/skywalking-go/agent/core/tracing"
-	_ "github.com/apache/skywalking-go/agent/reporter"
+	_ "github.com/hegeng1212/skywalking-go/agent/core"
+	_ "github.com/hegeng1212/skywalking-go/agent/core/operator"
+	_ "github.com/hegeng1212/skywalking-go/agent/core/tracing"
+	_ "github.com/hegeng1212/skywalking-go/agent/reporter"
 )

@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/grpc
+module github.com/hegeng1212/skywalking-go/plugins/grpc
 
 go 1.20
 

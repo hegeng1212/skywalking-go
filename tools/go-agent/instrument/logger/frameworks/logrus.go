@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"
@@ -43,7 +43,7 @@ func (l *Logrus) PackagePaths() map[string]*PackageConfiguration {
 	return map[string]*PackageConfiguration{"github.com/sirupsen/logrus": {NeedsHelpers: true, NeedsVariables: true, NeedsChangeLoggerFunc: true}}
 }
 
-//nolint
+// nolint
 func (l *Logrus) AutomaticBindFunctions(fun *dst.FuncDecl) string {
 	// enhance logrus.New(), update the logger when getting new instance
 	if fun.Name.Name == "New" && fun.Type.Results != nil && len(fun.Type.Results.List) == 1 &&

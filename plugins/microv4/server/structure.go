@@ -17,7 +17,7 @@
 
 package server
 
-import "github.com/apache/skywalking-go/plugins/core/tracing"
+import "github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 
 //skywalking:ref_generate go-micro.dev/v4/util/socket InjectData
 type InjectData struct {

@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/apache/skywalking-go/toolkit/trace"
+	"github.com/hegeng1212/skywalking-go/toolkit/trace"
 )
 
 func testTag() {

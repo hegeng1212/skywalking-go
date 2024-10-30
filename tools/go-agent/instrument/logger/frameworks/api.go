@@ -21,8 +21,8 @@ import (
 	"embed"
 	"time"
 
-	"github.com/apache/skywalking-go/plugins/core/operator"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"

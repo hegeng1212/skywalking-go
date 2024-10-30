@@ -24,7 +24,7 @@ Release Notes.
 
 #### Issues and PR
 - All issues are [here](https://github.com/apache/skywalking/milestone/219?closed=1)
-- All and pull requests are [here](https://github.com/apache/skywalking-go/milestone/7?closed=1)
+- All and pull requests are [here](https://github.com/hegeng1212/skywalking-go/milestone/7?closed=1)
 
 0.5.0
 ------------------
@@ -81,7 +81,7 @@ Release Notes.
 
 #### Issues and PR
 - All issues are [here](https://github.com/apache/skywalking/milestone/197?closed=1)
-- All and pull requests are [here](https://github.com/apache/skywalking-go/milestone/4?closed=1)
+- All and pull requests are [here](https://github.com/hegeng1212/skywalking-go/milestone/4?closed=1)
 
 0.3.0
 ------------------
@@ -103,7 +103,7 @@ Release Notes.
 
 #### Issues and PR
 - All issues are [here](https://github.com/apache/skywalking/milestone/189?closed=1)
-- All and pull requests are [here](https://github.com/apache/skywalking-go/milestone/3?closed=1)
+- All and pull requests are [here](https://github.com/hegeng1212/skywalking-go/milestone/3?closed=1)
 
 0.2.0
 ------------------
@@ -137,7 +137,7 @@ Release Notes.
 
 #### Issues and PR
 - All issues are [here](https://github.com/apache/skywalking/milestone/180?closed=1)
-- All and pull requests are [here](https://github.com/apache/skywalking-go/milestone/2?closed=1)
+- All and pull requests are [here](https://github.com/hegeng1212/skywalking-go/milestone/2?closed=1)
 
 0.1.0
 ------------------
@@ -161,4 +161,4 @@ Release Notes.
 
 #### Issues and PR
 - All issues are [here](https://github.com/apache/skywalking/milestone/176?closed=1)
-- All and pull requests are [here](https://github.com/apache/skywalking-go/milestone/1?closed=1)
+- All and pull requests are [here](https://github.com/hegeng1212/skywalking-go/milestone/1?closed=1)

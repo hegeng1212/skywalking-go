@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/pulsar
+module github.com/hegeng1212/skywalking-go/plugins/pulsar
 
 go 1.19
 

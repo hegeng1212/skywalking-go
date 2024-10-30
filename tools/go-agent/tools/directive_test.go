@@ -20,7 +20,7 @@ package tools
 import (
 	"testing"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
 )
 
 func TestContainsDirective(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/tools/go-agent
+module github.com/hegeng1212/skywalking-go/tools/go-agent
 
 go 1.19
 

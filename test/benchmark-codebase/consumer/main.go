@@ -31,7 +31,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 var providerAddress = flag.String("provider", "", "provider address")

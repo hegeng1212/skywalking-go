@@ -9,7 +9,7 @@ Debugging is essential when developing plugins, as it helps you verify your plug
 
 ## Write test code
 
-Please make sure that you have imported `github.com/apache/skywalking-go` in your test code. 
+Please make sure that you have imported `github.com/hegeng1212/skywalking-go` in your test code. 
 You can refer to the [documentation on how to compile using go build for specific steps](../setup/gobuild.md#install-skywalking-go).
 
 ## Adjust the test program's Debug configuration

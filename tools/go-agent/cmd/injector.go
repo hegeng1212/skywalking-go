@@ -28,14 +28,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
 )
 
 const (
-	projectBaseImportPath = "github.com/apache/skywalking-go"
+	projectBaseImportPath = "github.com/hegeng1212/skywalking-go"
 	goModFileName         = "go.mod"
 
 	swImportFileName = "skywalking_inject.go"
@@ -143,7 +143,7 @@ func (i *projectInjector) findGoModFileInDir(dir string) bool {
 func (i *projectInjector) injectLibraryInRoot(dir string) error {
 	v := getCompitableVersion(version)
 	fmt.Printf("injecting skywalking-go@%s depenedency into %s\n", v, dir)
-	command := exec.Command("go", "get", "github.com/apache/skywalking-go@"+v)
+	command := exec.Command("go", "get", "github.com/hegeng1212/skywalking-go@"+v)
 	command.Dir = dir
 	command.Stdin = os.Stdin
 	command.Stdout = os.Stdout

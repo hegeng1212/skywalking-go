@@ -20,8 +20,8 @@ package main
 import (
 	"net/http"
 
-	_ "github.com/apache/skywalking-go"
-	"github.com/apache/skywalking-go/toolkit/trace"
+	_ "github.com/hegeng1212/skywalking-go"
+	"github.com/hegeng1212/skywalking-go/toolkit/trace"
 )
 
 func providerHandler(w http.ResponseWriter, r *http.Request) {

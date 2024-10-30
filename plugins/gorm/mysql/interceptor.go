@@ -22,7 +22,7 @@ import (
 
 	driver "github.com/go-sql-driver/mysql"
 
-	"github.com/apache/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
 )
 
 type InstanceInterceptor struct {

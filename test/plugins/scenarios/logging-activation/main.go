@@ -21,8 +21,8 @@ import (
 	"io"
 	"net/http"
 
-	_ "github.com/apache/skywalking-go"
-	"github.com/apache/skywalking-go/toolkit/logging"
+	_ "github.com/hegeng1212/skywalking-go"
+	"github.com/hegeng1212/skywalking-go/toolkit/logging"
 )
 
 func providerHandler(w http.ResponseWriter, r *http.Request) {

@@ -21,8 +21,8 @@ import (
 	"go-micro.dev/v4/registry"
 	"go-micro.dev/v4/selector"
 
-	"github.com/apache/skywalking-go/plugins/core/operator"
-	"github.com/apache/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 )
 
 type NextInterceptor struct {

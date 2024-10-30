@@ -26,8 +26,8 @@ import (
 	_ "github.com/pkg/errors"
 
 	//go:nolint
-	_ "github.com/apache/skywalking-go/agent/core/operator"
-	_ "github.com/apache/skywalking-go/agent/reporter"
+	_ "github.com/hegeng1212/skywalking-go/agent/core/operator"
+	_ "github.com/hegeng1212/skywalking-go/agent/reporter"
 
 	//go:nolint
 	_ "skywalking.apache.org/repo/goapi/collect/common/v3"

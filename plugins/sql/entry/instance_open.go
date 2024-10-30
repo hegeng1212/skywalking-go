@@ -20,8 +20,8 @@ package entry
 import (
 	"database/sql"
 
-	"github.com/apache/skywalking-go/plugins/core/operator"
-	"github.com/apache/skywalking-go/plugins/core/tracing"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tracing"
 )
 
 var needInfoKey = "needInfo"

@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/core
+module github.com/hegeng1212/skywalking-go/plugins/core
 
 go 1.19
 

@@ -27,12 +27,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/skywalking-go/tools/go-agent/config"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/api"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/logger/frameworks"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/config"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/api"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/logger/frameworks"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/plugins/rewrite"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"

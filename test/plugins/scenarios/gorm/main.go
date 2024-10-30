@@ -25,7 +25,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 var db *gorm.DB

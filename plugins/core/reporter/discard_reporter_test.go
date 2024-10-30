@@ -20,7 +20,7 @@ package reporter_test
 import (
 	"testing"
 
-	"github.com/apache/skywalking-go/plugins/core/reporter"
+	"github.com/hegeng1212/skywalking-go/plugins/core/reporter"
 )
 
 func TestDiscardReporter(t *testing.T) {

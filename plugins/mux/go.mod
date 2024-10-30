@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/mux
+module github.com/hegeng1212/skywalking-go/plugins/mux
 
 go 1.19
 

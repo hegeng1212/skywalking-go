@@ -20,7 +20,7 @@ package core
 import (
 	"testing"
 
-	"github.com/apache/skywalking-go/plugins/core/tools"
+	"github.com/hegeng1212/skywalking-go/plugins/core/tools"
 )
 
 type testInterface interface {

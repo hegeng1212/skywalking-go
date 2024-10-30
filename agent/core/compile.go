@@ -39,10 +39,10 @@ import (
 	_ "unsafe"
 
 	//go:nolint
-	_ "github.com/apache/skywalking-go/agent/core/operator"
-	_ "github.com/apache/skywalking-go/agent/core/tracing"
-	_ "github.com/apache/skywalking-go/agent/reporter"
-	_ "github.com/apache/skywalking-go/log"
+	_ "github.com/hegeng1212/skywalking-go/agent/core/operator"
+	_ "github.com/hegeng1212/skywalking-go/agent/core/tracing"
+	_ "github.com/hegeng1212/skywalking-go/agent/reporter"
+	_ "github.com/hegeng1212/skywalking-go/log"
 
 	//go:nolint
 	_ "github.com/google/uuid"

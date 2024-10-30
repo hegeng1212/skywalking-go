@@ -29,13 +29,13 @@ Please execute the following command, which would automatically import SkyWalkin
 Use `go get` to import the `skywalking-go` program.
 
 ```shell
-go get github.com/apache/skywalking-go
+go get github.com/hegeng1212/skywalking-go
 ```
 
 Also, import the module to your `main` package: 
 
 ```go
-import _ "github.com/apache/skywalking-go"
+import _ "github.com/hegeng1212/skywalking-go"
 ```
 
 **NOTICE**: Please ensure that the version of the Agent you downloaded is consistent with the version installed via `go get` in the previous section,

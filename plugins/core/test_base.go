@@ -20,8 +20,8 @@ package core
 import (
 	"sync"
 
-	"github.com/apache/skywalking-go/plugins/core/operator"
-	"github.com/apache/skywalking-go/plugins/core/reporter"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/reporter"
 
 	logv3 "skywalking.apache.org/repo/goapi/collect/logging/v3"
 )

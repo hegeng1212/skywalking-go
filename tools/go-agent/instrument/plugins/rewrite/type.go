@@ -20,8 +20,8 @@ package rewrite
 import (
 	"fmt"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 )

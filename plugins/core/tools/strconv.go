@@ -17,7 +17,7 @@
 
 package tools
 
-import "github.com/apache/skywalking-go/plugins/core/operator"
+import "github.com/hegeng1212/skywalking-go/plugins/core/operator"
 
 func ParseFloat(val string, bitSize int) (float64, error) {
 	if val == "" || bitSize == 0 {

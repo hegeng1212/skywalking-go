@@ -31,8 +31,8 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 )
 
 var GenerateCommonPrefix = "skywalking_"

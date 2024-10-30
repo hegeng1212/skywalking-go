@@ -17,7 +17,7 @@
 
 package logging
 
-import "github.com/apache/skywalking-go/plugins/core/operator"
+import "github.com/hegeng1212/skywalking-go/plugins/core/operator"
 
 type ErrorEntryInterceptor struct{}
 

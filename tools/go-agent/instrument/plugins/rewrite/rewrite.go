@@ -23,7 +23,7 @@ import (
 	"go/token"
 	"path/filepath"
 
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"

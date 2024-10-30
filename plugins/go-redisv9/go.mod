@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/go-redisv9
+module github.com/hegeng1212/skywalking-go/plugins/go-redisv9
 
 go 1.19
 

@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/skywalking-go/plugins/core"
-	"github.com/apache/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
 
 	"github.com/stretchr/testify/assert"
 )

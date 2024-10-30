@@ -24,17 +24,17 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/apache/skywalking-go/plugins/core/instrument"
-	"github.com/apache/skywalking-go/tools/go-agent/config"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/plugins/core/instrument"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/config"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 
 	"github.com/dave/dst"
 )
 
 var (
 	configFieldKeyTag = "config"
-	toolsImports      = "github.com/apache/skywalking-go/plugins/core/tools"
+	toolsImports      = "github.com/hegeng1212/skywalking-go/plugins/core/tools"
 )
 
 type ConfigEnhance struct {

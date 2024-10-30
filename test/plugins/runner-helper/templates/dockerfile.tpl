@@ -25,12 +25,12 @@ RUN mkdir -p /gotmp
 {{ if .GreaterThanGo18 -}}
 RUN go work use test/plugins/workspace/{{.Context.ScenarioName}}/{{.Context.CaseName}}
 {{ else }}
-RUN echo "replace github.com/apache/skywalking-go => ../../../../../" >> test/plugins/workspace/{{.Context.ScenarioName}}/{{.Context.CaseName}}/go.mod
+RUN echo "replace github.com/hegeng1212/skywalking-go => ../../../../../" >> test/plugins/workspace/{{.Context.ScenarioName}}/{{.Context.CaseName}}/go.mod
 {{ end -}}
 
 WORKDIR /skywalking-go/test/plugins/workspace/{{.Context.ScenarioName}}/{{.Context.CaseName}}/
 {{ if .Context.Config.Toolkit -}}
-RUN echo "replace github.com/apache/skywalking-go/toolkit => ../../../../../toolkit" >> ./go.mod
+RUN echo "replace github.com/hegeng1212/skywalking-go/toolkit => ../../../../../toolkit" >> ./go.mod
 {{ end }}
 RUN go mod tidy
 

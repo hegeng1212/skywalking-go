@@ -4,7 +4,7 @@ This documentation guides the release manager to release the SkyWalking Go in th
 
 ## Prerequisites
 
-1. Close(if finished, or move to next milestone otherwise) all issues in the current milestone from [skywalking-go](https://github.com/apache/skywalking-go/milestones) and [skywalking](https://github.com/apache/skywalking/milestones), create a new milestone if needed.
+1. Close(if finished, or move to next milestone otherwise) all issues in the current milestone from [skywalking-go](https://github.com/hegeng1212/skywalking-go/milestones) and [skywalking](https://github.com/apache/skywalking/milestones), create a new milestone if needed.
 2. Update [CHANGES.md](../../../CHANGES.md).
 3. Check the [dependency licenses](../../../dist/LICENSE) including all dependencies.
 
@@ -55,7 +55,7 @@ This is a call for vote to release Apache SkyWalking Go version $VERSION.
 
 Release notes:
 
- * https://github.com/apache/skywalking-go/blob/v$VERSION/CHANGES.md
+ * https://github.com/hegeng1212/skywalking-go/blob/v$VERSION/CHANGES.md
 
 Release Candidate:
 
@@ -70,7 +70,7 @@ Release Tag :
 
 Release Commit Hash :
 
- * https://github.com/apache/skywalking-go/tree/<Git Commit Hash>
+ * https://github.com/hegeng1212/skywalking-go/tree/<Git Commit Hash>
 
 Keys to verify the Release Candidate :
 
@@ -78,7 +78,7 @@ Keys to verify the Release Candidate :
 
 Guide to build the release from source :
 
- * https://github.com/apache/skywalking-go/blob/v$VERSION/docs/en/development-and-contribution/how-to-release.md
+ * https://github.com/hegeng1212/skywalking-go/blob/v$VERSION/docs/en/development-and-contribution/how-to-release.md
 
 Voting will start now and will remain open for at least 72 hours, all PMC members are required to give their votes.
 
@@ -138,7 +138,7 @@ Vote result should follow these:
     
 1. Refer to the previous [PR](https://github.com/apache/skywalking-website/pull/212), update the event and download links on the website.
 
-1. Update [Github release page](https://github.com/apache/skywalking-go/releases), follow the previous convention.
+1. Update [Github release page](https://github.com/hegeng1212/skywalking-go/releases), follow the previous convention.
 
 1. Send ANNOUNCE email to `dev@skywalking.apache.org` and `announce@apache.org`, the sender should use his/her Apache email account, **please check all links before sending the email**.
 
@@ -157,14 +157,14 @@ Vote result should follow these:
 
     Download Links: http://skywalking.apache.org/downloads/
 
-    Release Notes : https://github.com/apache/skywalking-go/blob/v$VERSION/CHANGES.md
+    Release Notes : https://github.com/hegeng1212/skywalking-go/blob/v$VERSION/CHANGES.md
 
     Website: http://skywalking.apache.org/
 
     SkyWalking Go Resources:
     - Issue: https://github.com/apache/skywalking/issues
     - Mailing list: dev@skywalking.apache.org
-    - Documents: https://github.com/apache/skywalking-go/blob/v$VERSION/README.md
+    - Documents: https://github.com/hegeng1212/skywalking-go/blob/v$VERSION/README.md
     
     The Apache SkyWalking Team
     ```

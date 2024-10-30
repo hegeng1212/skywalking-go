@@ -72,7 +72,7 @@ In the test code, please start an HTTP service and expose the following two inte
 2. **Entry service**: Write the complete framework business logic at this address. Validate all the features provided by the plugin as much as possible.
 This corresponds to the **entry-service** address in configuration.
 
-The test code, like a regular program, needs to import the `github.com/apache/skywalking-go` package.
+The test code, like a regular program, needs to import the `github.com/hegeng1212/skywalking-go` package.
 
 ## Test Execution
 

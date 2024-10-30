@@ -18,8 +18,8 @@
 package metric
 
 import (
-	"github.com/apache/skywalking-go/plugins/core/metrics"
-	"github.com/apache/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/metrics"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
 )
 
 type WithLabelsInterceptor struct{}

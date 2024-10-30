@@ -1,4 +1,4 @@
-module github.com/apache/skywalking-go/plugins/rocketmq
+module github.com/hegeng1212/skywalking-go/plugins/rocketmq
 
 go 1.19
 

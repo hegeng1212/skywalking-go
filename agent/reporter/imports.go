@@ -30,8 +30,8 @@ import (
 	_ "time"
 
 	// imports the logs for reporter
-	_ "github.com/apache/skywalking-go/agent/core/operator"
-	_ "github.com/apache/skywalking-go/log"
+	_ "github.com/hegeng1212/skywalking-go/agent/core/operator"
+	_ "github.com/hegeng1212/skywalking-go/log"
 
 	// imports configuration and starter for gRPC
 	_ "google.golang.org/grpc"

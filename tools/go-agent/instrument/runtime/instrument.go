@@ -24,9 +24,9 @@ import (
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/api"
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
-	"github.com/apache/skywalking-go/tools/go-agent/tools"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/api"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/tools"
 )
 
 var defaultInternalAtomicPath = "runtime/internal/atomic"

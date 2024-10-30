@@ -26,7 +26,7 @@ import (
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
 
-	"github.com/apache/skywalking-go/tools/go-agent/instrument/consts"
+	"github.com/hegeng1212/skywalking-go/tools/go-agent/instrument/consts"
 )
 
 func CopyGoFiles(fromFS fs.ReadDirFS, fromDir, targetDir string,

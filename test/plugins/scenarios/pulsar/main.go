@@ -27,7 +27,7 @@ import (
 
 	"github.com/apache/pulsar-client-go/pulsar"
 
-	_ "github.com/apache/skywalking-go"
+	_ "github.com/hegeng1212/skywalking-go"
 )
 
 type testFunc func() error

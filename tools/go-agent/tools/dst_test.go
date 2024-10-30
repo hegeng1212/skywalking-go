@@ -37,27 +37,27 @@ func TestChangePackageImportPath(t *testing.T) {
 		{
 			file: `package main
 import (
-	"github.com/apache/skywalking-go/plugins/core/operator"
+	"github.com/hegeng1212/skywalking-go/plugins/core/operator"
 )`,
 			pkgUpdates: map[string]string{
-				"github.com/apache/skywalking-go/plugins/core/operator": "github.com/apache/skywalking-go/agent/core/operator",
+				"github.com/hegeng1212/skywalking-go/plugins/core/operator": "github.com/hegeng1212/skywalking-go/agent/core/operator",
 			},
 			actual: []string{
-				"github.com/apache/skywalking-go/agent/core/operator",
+				"github.com/hegeng1212/skywalking-go/agent/core/operator",
 			},
 		},
 		{
 			file: `package main
 import (
 	"fmt"
-	"github.com/apache/skywalking-go/agent/core/operator"
+	"github.com/hegeng1212/skywalking-go/agent/core/operator"
 )`,
 			pkgUpdates: map[string]string{
-				"github.com/apache/skywalking-go/plugins/core/operator": "github.com/apache/skywalking-go/agent/core/operator",
+				"github.com/hegeng1212/skywalking-go/plugins/core/operator": "github.com/hegeng1212/skywalking-go/agent/core/operator",
 			},
 			actual: []string{
 				"fmt",
-				"github.com/apache/skywalking-go/agent/core/operator",
+				"github.com/hegeng1212/skywalking-go/agent/core/operator",
 			},
 		},
 	}

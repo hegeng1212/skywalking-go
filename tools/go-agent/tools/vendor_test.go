@@ -28,16 +28,16 @@ func TestUnVendor(t *testing.T) {
 		excepted string
 	}{
 		{
-			pkgPath:  "github.com/apache/skywalking-go-plugins",
-			excepted: "github.com/apache/skywalking-go-plugins",
+			pkgPath:  "github.com/hegeng1212/skywalking-go-plugins",
+			excepted: "github.com/hegeng1212/skywalking-go-plugins",
 		},
 		{
 			pkgPath:  "test/vendor",
 			excepted: "test/vendor",
 		},
 		{
-			pkgPath:  "application-path/vendor/github.com/apache/skywalking-go-plugins",
-			excepted: "github.com/apache/skywalking-go-plugins",
+			pkgPath:  "application-path/vendor/github.com/hegeng1212/skywalking-go-plugins",
+			excepted: "github.com/hegeng1212/skywalking-go-plugins",
 		},
 	}
 
@@ -67,7 +67,7 @@ func TestParseVendorModule(t *testing.T) {
 			hasError:     false,
 			packageCount: 2,
 			validate: func(modules VendorModules) error {
-				if m := modules["github.com/apache/skywalking-go/log"]; m == nil {
+				if m := modules["github.com/hegeng1212/skywalking-go/log"]; m == nil {
 					return fmt.Errorf("module missing")
 				} else if m.Version != "v0.3.0" {
 					return fmt.Errorf("version not correct")
