@@ -29,7 +29,8 @@ GIT_COMMIT := $(shell $(GIT) rev-parse --short HEAD)
 ifeq ($(strip $(GIT_COMMIT)),)
     GIT_COMMIT = $(shell grep gitCommit $(VERSION_PATH) | awk -F ': ' '{print $$2}')
 endif
-VERSION ?= $(shell grep version $(VERSION_PATH) | awk -F ': ' '{print $$2}')
+#VERSION ?= $(shell grep version $(VERSION_PATH) | awk -F ': ' '{print $$2}')
+VERSION = 0.5.0
 
 GO_VERSION := $(shell $(GO) env GOVERSION)
 VERSION_PACKAGE := main

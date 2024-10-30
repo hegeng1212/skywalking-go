@@ -1,11 +1,11 @@
-github.com/hegeng1212/skywalking-go/plugins/core v0.0.0-20231219135352-613c25b35399 h1:sTOO/hMnZ6AJmslvtE08em3DmWS7T7AtNtgR6tDJCIA=
-github.com/hegeng1212/skywalking-go/plugins/core v0.0.0-20231219135352-613c25b35399/go.mod h1:P0tAFNAYJUNsiTlFQgxmCcRcu+7Y0MP8GBZfSI449CM=
 github.com/dave/dst v0.27.2 h1:4Y5VFTkhGLC1oddtNwuxxe36pnyLxMFXT51FOzH8Ekc=
 github.com/dave/dst v0.27.2/go.mod h1:jHh6EOibnHgcUW3WjKHisiooEkYwqpHLBSX1iOBhEyc=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/golang-jwt/jwt v3.2.2+incompatible/go.mod h1:8pz2t5EyA70fFQQSrl6XZXzqecmYZeUEB8OUGHkxJ+I=
+github.com/hegeng1212/skywalking-go/plugins/core v0.0.0-20241030022359-738b96ebd772 h1:PtJ0Z+/x8Ch9Yvw02PwDGXEpKkCvV6UStKBofOZoINc=
+github.com/hegeng1212/skywalking-go/plugins/core v0.0.0-20241030022359-738b96ebd772/go.mod h1:ObvMBLhwltCOAMkln4MhU0UI9Ph8ophhEpGy/7LsMpo=
 github.com/labstack/echo/v4 v4.6.3 h1:VhPuIZYxsbPmo4m9KAkMU/el2442eB7EBFFhNTTT9ac=
 github.com/labstack/echo/v4 v4.6.3/go.mod h1:Hk5OiHj0kDqmFq7aHe7eDqI7CUhuCrfpupQtLGGLm7A=
 github.com/labstack/gommon v0.3.1 h1:OomWaJXm7xR6L1HmEtGyQf26TEn7V6X88mktX9kee9o=

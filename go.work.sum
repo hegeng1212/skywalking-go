@@ -507,7 +507,6 @@ github.com/apache/arrow/go/v11 v11.0.0 h1:hqauxvFQxww+0mEU/2XHG6LT7eZternCZq+A5Y
 github.com/apache/arrow/go/v11 v11.0.0/go.mod h1:Eg5OsL5H+e299f7u5ssuXsuHQVEGC4xei5aX110hRiI=
 github.com/apache/dubbo-getty v1.4.9-0.20221022181821-4dc6252ce98c h1:2LE4IlyVBBlMo0ZDI+vq9YIb35dyij1YR5EnNWVPnNQ=
 github.com/apache/dubbo-go-hessian2 v1.11.5 h1:rcK22+yMw2Hejm6GRG7WrdZ0DinW2QMZc01c7YVZjcQ=
-github.com/hegeng1212/skywalking-go v0.0.0-20230411034404-b9270e98036b/go.mod h1:K0KR1RwXnGRlhw/ANpJ4Ex2CzhT4ST78MxmgHNi3/Z4=
 github.com/apache/thrift v0.13.0 h1:5hryIiq9gtn+MiLVn0wP37kb/uTeRZgN08WoCsAhIhI=
 github.com/apache/thrift v0.16.0 h1:qEy6UW60iVOlUy+b9ZR0d5WzUWYGOo4HfopoyBaNmoY=
 github.com/apache/thrift v0.16.0/go.mod h1:PHK3hniurgQaNMZYaCLEqXKsYK8upmhPbmdP2FXSqgU=

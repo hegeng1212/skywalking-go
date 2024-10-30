@@ -136,7 +136,7 @@ Vote result should follow these:
     svn mv https://dist.apache.org/repos/dist/dev/skywalking/go/$VERSION https://dist.apache.org/repos/dist/release/skywalking/go
     ```
     
-1. Refer to the previous [PR](https://github.com/apache/skywalking-website/pull/212), update the event and download links on the website.
+1. Refer to the previous [PR](https://github.com/hegeng1212/skywalking-website/pull/212), update the event and download links on the website.
 
 1. Update [Github release page](https://github.com/hegeng1212/skywalking-go/releases), follow the previous convention.
 
@@ -162,7 +162,7 @@ Vote result should follow these:
     Website: http://skywalking.apache.org/
 
     SkyWalking Go Resources:
-    - Issue: https://github.com/apache/skywalking/issues
+    - Issue: https://github.com/hegeng1212/skywalking/issues
     - Mailing list: dev@skywalking.apache.org
     - Documents: https://github.com/hegeng1212/skywalking-go/blob/v$VERSION/README.md
     

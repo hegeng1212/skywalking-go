@@ -69,7 +69,7 @@ func TestParseVendorModule(t *testing.T) {
 			validate: func(modules VendorModules) error {
 				if m := modules["github.com/hegeng1212/skywalking-go/log"]; m == nil {
 					return fmt.Errorf("module missing")
-				} else if m.Version != "v0.3.0" {
+				} else if m.Version != "v0.5.0" {
 					return fmt.Errorf("version not correct")
 				}
 				return nil

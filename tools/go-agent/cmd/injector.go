@@ -326,6 +326,7 @@ func (i *projectInjector) containsImport(imp *dst.GenDecl) bool {
 }
 
 func getCompitableVersion(version string) string {
+	fmt.Println(version)
 	if !gitSHARegex.MatchString(version) && !strings.HasPrefix(version, "v") {
 		return "v" + version
 	}

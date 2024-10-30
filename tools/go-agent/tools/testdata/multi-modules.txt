@@ -1,4 +1,4 @@
-# github.com/hegeng1212/skywalking-go v0.3.0
+# github.com/hegeng1212/skywalking-go v0.5.0
 ## explicit; go 1.18
 github.com/hegeng1212/skywalking-go
 github.com/hegeng1212/skywalking-go/agent/core

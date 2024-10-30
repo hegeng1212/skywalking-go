@@ -160,5 +160,5 @@ Release Notes.
 * Initialize the documentation.
 
 #### Issues and PR
-- All issues are [here](https://github.com/apache/skywalking/milestone/176?closed=1)
+- All issues are [here](https://github.com/hegeng1212/skywalking/milestone/176?closed=1)
 - All and pull requests are [here](https://github.com/hegeng1212/skywalking-go/milestone/1?closed=1)
