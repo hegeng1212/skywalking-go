@@ -174,14 +174,7 @@ func (t *Tracer) InitTracer(extend map[string]interface{}) {
 		return
 	}
 
-	agentServiceName := {{.Config.Agent.ServiceName.ToGoStringValue}}
-	agentServiceEnv := os.Getenv("run_env")
-	if agentServiceEnv == "" {
-		agentServiceEnv = "test"
-	}
-	agentServiceName = fmt.Sprintf("%s.%s", agentServiceName, agentServiceEnv)
-
-	entity := NewEntity(agentServiceName, {{.Config.Agent.InstanceEnvName.ToGoStringValue}})
+	entity := NewEntity({{.Config.Agent.ServiceName.ToGoStringValue}}, {{.Config.Agent.InstanceEnvName.ToGoStringValue}})
 	samp := NewDynamicSampler({{.Config.Agent.Sampler.ToGoFloatValue "loading the agent sampler error"}}, t)
 	meterCollectInterval := {{.Config.Agent.Meter.CollectInterval.ToGoIntValue "loading the agent meter interval error"}}
 	var logger operator.LogOperator

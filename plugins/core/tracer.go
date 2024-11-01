@@ -90,14 +90,26 @@ func (t *Tracer) Tools() interface{} {
 }
 
 func NewEntity(service, instanceEnvName string) *reporter.Entity {
-	instanceName := os.Getenv(instanceEnvName)
-	if instanceName == "" {
-		id, err := UUID()
-		if err != nil {
-			panic(fmt.Sprintf("generate UUID failure: %v", err))
-		}
-		instanceName = id + "@" + IPV4()
+	agentServiceEnv := os.Getenv("run_env")
+	if agentServiceEnv == "production" {
+		agentServiceEnv = "online"
+	} else {
+		agentServiceEnv = "test"
 	}
+	service = fmt.Sprintf("%s.%s", service, agentServiceEnv)
+
+	instanceName := os.Getenv("HOSTNAME")
+	if instanceName == "" {
+		instanceName = os.Getenv(instanceEnvName)
+		if instanceName == "" {
+			id, err := UUID()
+			if err != nil {
+				panic(fmt.Sprintf("generate UUID failure: %v", err))
+			}
+			instanceName = id + "@" + IPV4()
+		}
+	}
+
 	propResult := buildOSInfo()
 	return &reporter.Entity{
 		ServiceName:         service,
