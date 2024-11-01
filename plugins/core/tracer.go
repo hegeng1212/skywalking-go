@@ -108,6 +108,8 @@ func NewEntity(service, instanceEnvName string) *reporter.Entity {
 			}
 			instanceName = id + "@" + IPV4()
 		}
+	} else {
+		instanceName = instanceName + "@" + IPV4()
 	}
 
 	propResult := buildOSInfo()
