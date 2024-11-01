@@ -46,6 +46,7 @@ type Config struct {
 
 type Agent struct {
 	ServiceName     StringValue `yaml:"service_name"`
+	ServiceEnv      StringValue `yaml:"service_env"`
 	InstanceEnvName StringValue `yaml:"instance_env_name"`
 	Sampler         StringValue `yaml:"sampler"`
 	Meter           Meter       `yaml:"meter"`
@@ -129,6 +130,10 @@ func LoadConfig(path string) error {
 		return err
 	}
 	config.overwriteFrom(userConfig)
+
+	if &config.Agent != nil {
+		config.Agent.ServiceEnv = StringValue{EnvKey: "run_env", Default: "dev"}
+	}
 
 	return nil
 }

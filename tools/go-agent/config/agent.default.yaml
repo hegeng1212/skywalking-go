@@ -20,6 +20,8 @@
 agent:
   # Service name is showed in UI.
   service_name: ${SW_AGENT_NAME:Your_ApplicationName}
+  # service_env is Babytree environment variables distinguish between dev, test, and production environments .
+  service_env: ${run_env:dev}
   # To obtain the environment variable key for the instance name, if it cannot be obtained, an instance name will be automatically generated.
   instance_env_name: SW_AGENT_INSTANCE_NAME
   # Sampling rate of tracing data, which is a floating-point value that must be between 0 and 1.

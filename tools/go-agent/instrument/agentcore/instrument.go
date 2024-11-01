@@ -173,7 +173,14 @@ func (t *Tracer) InitTracer(extend map[string]interface{}) {
 		t.Log.Errorf("cannot initialize the reporter: %v", err)
 		return
 	}
-	entity := NewEntity({{.Config.Agent.ServiceName.ToGoStringValue}}, {{.Config.Agent.InstanceEnvName.ToGoStringValue}})
+
+	agentServiceName := {{.Config.Agent.ServiceName.ToGoStringValue}}
+	agentServiceEnv := {{.Config.Agent.ServiceEnv.ToGoStringValue}}
+	if agentServiceEnv != "" {
+		agentServiceName = fmt.Sprintf("%s.%s", agentServiceName, agentServiceEnv)
+	}
+
+	entity := NewEntity(agentServiceName, {{.Config.Agent.InstanceEnvName.ToGoStringValue}})
 	samp := NewDynamicSampler({{.Config.Agent.Sampler.ToGoFloatValue "loading the agent sampler error"}}, t)
 	meterCollectInterval := {{.Config.Agent.Meter.CollectInterval.ToGoIntValue "loading the agent meter interval error"}}
 	var logger operator.LogOperator
