@@ -175,10 +175,11 @@ func (t *Tracer) InitTracer(extend map[string]interface{}) {
 	}
 
 	agentServiceName := {{.Config.Agent.ServiceName.ToGoStringValue}}
-	agentServiceEnv := {{.Config.Agent.ServiceEnv.ToGoStringValue}}
-	if agentServiceEnv != "" {
-		agentServiceName = fmt.Sprintf("%s.%s", agentServiceName, agentServiceEnv)
+	agentServiceEnv := os.Getenv("run_env")
+	if agentServiceEnv == "" {
+		agentServiceEnv = "test"
 	}
+	agentServiceName = fmt.Sprintf("%s.%s", agentServiceName, agentServiceEnv)
 
 	entity := NewEntity(agentServiceName, {{.Config.Agent.InstanceEnvName.ToGoStringValue}})
 	samp := NewDynamicSampler({{.Config.Agent.Sampler.ToGoFloatValue "loading the agent sampler error"}}, t)
