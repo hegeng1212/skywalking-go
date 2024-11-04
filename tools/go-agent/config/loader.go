@@ -131,10 +131,6 @@ func LoadConfig(path string) error {
 	}
 	config.overwriteFrom(userConfig)
 
-	if &config.Agent != nil {
-		config.Agent.ServiceEnv = StringValue{EnvKey: "run_env", Default: "dev"}
-	}
-
 	return nil
 }
 

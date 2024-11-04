@@ -90,6 +90,7 @@ func (t *Tracer) Tools() interface{} {
 }
 
 func NewEntity(service, instanceEnvName string) *reporter.Entity {
+	//添加环境后缀名 begin，by hegeng
 	agentServiceEnv := os.Getenv("run_env")
 	if agentServiceEnv == "production" {
 		agentServiceEnv = "online"
@@ -111,6 +112,15 @@ func NewEntity(service, instanceEnvName string) *reporter.Entity {
 	} else {
 		instanceName = instanceName + "@" + IPV4()
 	}
+	//instanceName = os.Getenv(instanceEnvName)
+	//if instanceName == "" {
+	//    id, err := UUID()
+	//    if err != nil {
+	//        panic(fmt.Sprintf("generate UUID failure: %v", err))
+	//    }
+	//    instanceName = id + "@" + IPV4()
+	//}
+	//添加环境后缀名 end，by hegeng
 
 	propResult := buildOSInfo()
 	return &reporter.Entity{
